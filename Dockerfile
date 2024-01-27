@@ -1,6 +1,6 @@
 # Docker Image for MongoDB 3.0.14 on RPi3
 
-FROM -platform=linux/arm32v7 resin/rpi-raspbian:stretch
+FROM --platform=linux/arm32v7 resin/rpi-raspbian:stretch
 
 LABEL created_by=https://github.com/andresvidal/rpi3-mongodb3
 LABEL binaries=https://andyfelong.com/2017/08/mongodb-3-0-14-for-raspbian-stretch
